@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5337e34c-6cd4-4b2b-8ce6-96574cf8942d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\Админ\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ProjectId" id="1usxPU2CfJ69b0SxU5WVFffdqFI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="flutter run" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5337e34c-6cd4-4b2b-8ce6-96574cf8942d" name="Default Changelist" comment="" />
+      <created>1625468076728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625468076728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="ANDROID_HOME" value="C:\Android\android-sdk" />
+      <env key="ANDROID_AVD_HOME" value="C:\Android\android-sdk\.android\avd" />
+      <env key="ANDROID_SDK_ROOT" value="C:\Android\android-sdk" />
+    </envs>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="188" key="#Notifications" timestamp="1625751080757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1625751080757" />
+    <state x="275" y="5" key="#Plugins" timestamp="1625834041134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="5" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1625834041134" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625747386781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1625747386781" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1625602846182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1625602846182" />
+    <state x="79" y="103" width="1182" height="544" key="AVDManager" timestamp="1625848026879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="79" y="103" width="1182" height="544" key="AVDManager/0.0.1366.728@0.0.1366.728" timestamp="1625848026879" />
+    <state x="579" y="105" key="EnvironmentVariablesDialog" timestamp="1625833590003">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="579" y="105" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625833590003" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1625751155276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625751155276" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1625607001767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625607001767" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1625607001767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625607001767" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1625607001767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625607001767" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1625607001767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625607001767" />
+    <state x="213" y="0" key="SettingsEditor" timestamp="1625847886310">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1625847886310" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1625472405406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1625472405406" />
+  </component>
+</project>
