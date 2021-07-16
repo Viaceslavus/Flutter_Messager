@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "576266001692",
+    "project_id": "slavikogram",
+    "storage_bucket": "slavikogram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576266001692:android:20d18c04656efef0f56ed9",
+        "android_client_info": {
+          "package_name": "com.example.sommer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576266001692-2h6cnmc8sgu8af9vp5357jsl6p17e692.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc7m91nloPrZMYQIejgsYngeJ_MD5W92k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576266001692-2h6cnmc8sgu8af9vp5357jsl6p17e692.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

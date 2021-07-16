@@ -14,7 +14,6 @@ class MessageListView extends StatefulWidget {
 
 class _MessageListViewState extends State<MessageListView> {
   final String dbPath;
-  DatabaseReference? myContacts;
 
   List<Message> messages = [];
 
@@ -23,18 +22,22 @@ class _MessageListViewState extends State<MessageListView> {
   @override
   Future<void> initState() async {
     super.initState();
-    myContacts = FirebaseDatabase.instance
+    final myContacts = FirebaseDatabase.instance
         .reference()
         .child("Contacts")
         .child(UserSettings().userName!);
-    var loadedMessages = await myContacts?.child(dbPath).get();
-    var messagesMap = loadedMessages?.value as Map<String, Object>;
+    final loadedMessages = await myContacts.child(dbPath).get();
+    final messagesMap = loadedMessages?.value as Map<String, Object>;
     for (int i = 0; i < messagesMap.length; i++) {
       var messageText = messagesMap.keys.elementAt(i);
-      bool isMyMessage = myContacts?.child(messageText).child('isMine') as bool;
+      bool isMyMessage = myContacts.child(messageText).child('isMine') as bool;
       messages.add(
           Message(messagesMap.values.elementAt(i).toString(), isMyMessage));
     }
+
+    myContacts.onChildAdded.listen((event) => {
+      setState(() => messages.add(event.snapshot.value))
+    });
   }
 
   @override
@@ -42,17 +45,8 @@ class _MessageListViewState extends State<MessageListView> {
     return Container(
       child: SingleChildScrollView(
         child: Container(
-          child: StreamBuilder(
-            stream: myContacts?.onChildAdded,
-            builder: ((BuildContext context, AsyncSnapshot snapshot) {
-              if(snapshot.hasData)
-                messages.add(snapshot.data);
-
-              return Column(
-                children: messages,
-              );
-             }
-            ),
+           child: Column(
+              children: messages,
           ),
         ),
       ),

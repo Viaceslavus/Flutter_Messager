@@ -40,6 +40,22 @@
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "...",
+      authDomain: "Slavikogram.firebaseapp.com",
+      databaseURL: "https://Slavikogram.firebaseio.com",
+      projectId: "Slavikogram",
+      storageBucket: "Slavikogram.appspot.com",
+      messagingSenderId: "...",
+      appId: "1:...:web:...",
+      measurementId: "G-...",
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>

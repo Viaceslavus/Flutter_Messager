@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sommer/messaging/message_list.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:sommer/user_settings.dart';
 import 'messaging/messaging_main.dart';
@@ -8,6 +6,7 @@ import 'messaging/messaging_main.dart';
 class HomeView extends StatelessWidget {
   static String name = "Slavikogram";
 
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
