@@ -1,4 +1,3 @@
-
 class UserSettings {
   static final UserSettings _singleton = UserSettings._internal();
 
@@ -9,12 +8,4 @@ class UserSettings {
   }
 
   UserSettings._internal();
-
-  _abs(num value) => value + 1;
-
-  add(){
-    print(_abs(5));
-  }
 }
-
-
